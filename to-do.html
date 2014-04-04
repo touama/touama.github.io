@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My To Do List</title>
+	<link href="style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Amarante|Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+	<script>
+		function addText(){
+			// Store value of input to a variable
+			var input =document.getElementById('input').value;
+			// Add that input to a list
+			document.getElementById('do').innerHTML +="<li>" + input + "</li>";
+			document.getElementById('input').value = "";
+		}
+	</script>
+	</head>
+	<body>
+	<nav id="navbar">
+			<ul class="navigation">
+				<li><a href="index.html"> Derrick Wong</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="about.html">About Me</a></li>
+			</l>
+	</nav>
+	<h2>To Do List</h2>
+	<input type= "text" id="input" onkeydown="if (event.keyCode ==13) document.getElementById('add').click()" />
+	<input type= "button" id="add" onclick="addText()" value="Add To Do List" />
+	<p id="do"> </p>
+</body>
+</html>

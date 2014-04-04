@@ -1,0 +1,15 @@
+.container{
+	background: #fff;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#gallery ul{
+	list-style: none;
+}
+
+#gallery li{
+	display: inline;
+	margin-right: 5px;
+}

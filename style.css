@@ -1,0 +1,69 @@
+.navigation{
+	height: 50px;
+	background: #292929;
+}
+
+.navigation li:first-child{
+	display: inline;
+	font-size: 17px;
+	float: left;
+}
+
+.navigation li:nth-child(2){
+	display: inline;
+	margin-left: 450px;
+	font-size: 17px;
+}
+
+.navigation li:last-child{
+	display: inline;
+	font-size: 17px;
+	float: right;
+}
+
+.navigation a:link{
+	text-decoration: none;
+	font-family: 'Nothing You Could Do', 'sanserif';
+	color: #FF0400;
+}
+
+.navigation a:visited{
+
+}
+
+.navigation a:hover{
+	color: #fff;
+}
+
+img.top{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	
+} 
+
+body{
+	background: url("http://th00.deviantart.net/fs71/PRE/i/2013/203/3/0/water_and_ice_by_grivetart-d6eo2e7.jpg");
+	margin: 0;
+}
+
+p.adam{
+	text-align: center;
+}
+
+img.herl{
+	display: block;
+	margin: auto;
+	width: 42px;
+	height: 42px;
+}
+
+p.bio{
+	background: #292929;
+	color: #fff;
+}
+
+
+
